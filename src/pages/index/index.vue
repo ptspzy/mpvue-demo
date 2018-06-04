@@ -7,26 +7,25 @@
         <card :text="userInfo.nickName"></card>
       </div>
     </div>
-
     <div class="usermotto">
       <div class="user-motto">
         <card :text="motto"></card>
       </div>
     </div>
-    <test :text="motto"></test>
     <form class="form-container">
       <input type="text" class="form-control" v-model="motto" placeholder="v-model" />
       <input type="text" class="form-control" v-model.lazy="motto" placeholder="v-model.lazy" />
     </form>
     <a href="/pages/counter/main" class="counter">去往Vuex示例页面</a>
-    <tabbar></tabbar>
+    <footera text="俺是一个footer, 改了名字的"></footera>
+    <icon text="俺是一个icon"></icon>
   </div>
 </template>
 
 <script>
 import card from '@/components/card'
-import test from '@/components/test'
-import tabbar from '@/components/tabbar'
+import icon from '@/components/icon'
+import footera from '@/components/footer'
 
 export default {
   data () {
@@ -38,8 +37,8 @@ export default {
 
   components: {
     card,
-    test,
-    tabbar
+    icon,
+    footera
   },
 
   methods: {

@@ -1,7 +1,13 @@
 <template>
   <div>
     <p class="card">
-      {{text}}1111w
+      {{text}}
+    </p>
+     <p class="card">
+      {{text}}
+    </p>
+     <p class="card">
+      {{text}}
     </p>
   </div>
 </template>
