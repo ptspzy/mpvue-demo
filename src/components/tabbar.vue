@@ -1,7 +1,18 @@
 <template>
   <div>
-    <text>哈哈哈哈</text>
-    <text>哈哈哈哈</text>
-    <text>哈哈哈哈</text>
+    <p>{{data}}}</p>
+    <p>{{data}}}</p>
+    <p>{{data}}}</p>
   </div>
 </template>
+
+<script>
+export default {
+  data () {
+    return {
+      data: 'hahah'
+    }
+  }
+}
+</script>
+
