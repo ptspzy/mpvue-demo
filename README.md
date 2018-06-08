@@ -26,10 +26,11 @@ For detailed explanation on how things work, checkout the [guide](http://vuejs-t
 - https://github.com/mpvue/awesome-mpvue
 - 小程序官方文档 https://developers.weixin.qq.com/miniprogram/dev/index.html
 - vue官方文档 https://cn.vuejs.org/v2/guide/
-## 相关工具
+## 相关库（工具）
 - minapp-api-promise https://github.com/bigmeow/minapp-api-promise
 - http client : fly https://github.com/wendux/fly
 - px2rpx-loader
+- weui https://github.com/Tencent/weui/wiki/getting-started
 - ...
 ## 代码规范
 - eslint standard
@@ -38,6 +39,7 @@ For detailed explanation on how things work, checkout the [guide](http://vuejs-t
 ## 问题
 - 组件命名问题, 原生HTML标签冲突（如footer,article...） [mpvue保留字](https://github.com/Meituan-Dianping/mpvue/blob/master/src/platforms/mp/util/index.js#L7-L14)
 
-
+## 其他
+- https://github.com/NervJS/taro [京东多端统一开发框架](https://aotu.io/notes/2018/06/07/Taro/?utm_source=tuicool&utm_medium=referral)
 
 > 其他可 github search

@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import App from './App'
 import store from './store'
+// import('weui') // 全局引入weui
 
 Vue.config.productionTip = false
 App.mpType = 'app'

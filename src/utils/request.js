@@ -1,5 +1,4 @@
-import wx from 'wx'
-import Fly from 'flyio'
+import Fly from 'flyio/dist/npm/wx'
 
 const request = new Fly()
 
